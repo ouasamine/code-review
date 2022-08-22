@@ -1,0 +1,74 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3rem;
+  color: white;
+  background: url('../background.jpeg') no-repeat fixed;
+  
+
+}
+.page-wrapper{
+  background: rgba(70, 70, 219, 0.8);
+  opacity: 0.8;
+  padding-top: 12vh;
+}
+#title {
+  
+  font-weight: 100;
+  font-size: 2.1rem;
+}
+#description {
+  margin: 3vh 0vh 6vh 0vh;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 18px;
+}
+#survey-form {
+  background: #1b1b32;
+  opacity: 0.99;
+  width: 55%;
+  margin: auto;
+  text-align: left;
+  padding: 30px 40px;
+  border-radius: 4px;
+}
+.input-group {
+  margin: 20px 0px;
+}
+
+.input-group > label {
+  display: block;
+  margin-bottom: 7px;
+}
+
+.input-group > input,
+.input-group > select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+.input-group > div > textarea {
+  width: 100%;
+  border-radius: 5px;
+  resize: vertical;
+}
+
+#submit {
+  width: 100%;
+  padding: 15px 0;
+  color: white;
+  font-weight: 550;
+  background: rgb(81, 223, 46);
+  font-size: 18px;
+  border: 1px solid rgb(81, 223, 46);
+  border-radius: 3px;
+  margin-bottom: 7vh;
+  cursor: pointer;
+}
